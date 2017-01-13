@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+    outline:none;
+}
+
+body{
+    font: 400 12px 'Open Sans',HelveticaNeue,Helvetica,Arial;;
+    color: #707070;
+    background: url("../images/bg.png");
+}
+
+/*导航栏样式*/
+.navbar .brand{
+    float: left;
+    display: block;
+    padding: 10px 20px 10px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 0 1px 0 black;
+}
+
+a{
+    text-decoration: none;
+    color: #b9b3bb;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 246, 248);
+}
